@@ -1,0 +1,149 @@
+<style>
+
+body{
+ background-color : black;
+text-align : center;
+
+}
+
+.borders{
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+.Optop{
+  border-top-style: none;
+}
+
+.Opbottom{
+  border-bottom-style: none;
+}
+
+.Opright{
+  border-right-style: none;
+}
+
+.Opleft{
+  border-left-style: none;
+}
+
+
+.Dtop{
+  border-top-style: dashed;
+}
+
+.Dright {
+  border-right-style: dashed;
+}
+
+.Dleft{
+  border-left-style: dashed;
+}
+
+.Dbottom{
+  border-bottom-style: dashed;
+}
+
+
+.Btop{
+  border-top-style: dotted;
+}
+
+.Bbottom{
+  border-bottom-style: dotted;
+}
+
+.Bright{
+  border-right-style: dotted;
+}
+
+.Bleft{
+  border-left-style: dotted;
+}
+
+
+
+/* Four values multiple borders definable by listing their values */
+p.four {
+  border-style: dotted solid double dashed;
+}
+
+
+.center {
+display: flex , justify-content: center
+}
+
+table {
+ border-collapse: collapse;
+background-color:lightgreen ;
+//  border: 2px solid black;
+  background-color:green ;
+ // position: absolute;
+ // top: 50%;
+ // ms-transform: translateY(-50%);
+//  transform: translateY(-50%);
+
+//  margin-left: auto; 
+ // margin-right: auto;
+
+ // margin-top: 20px; 
+  margin-bottom : auto;
+
+
+  margin: 0 auto; 
+}
+
+td {
+//margin :10px;
+//padding :10px;
+ border-collapse: collapse;
+ border: 1px solid black;
+}
+
+td {}
+
+
+div {
+position: fixed; top: 10%; left: 30%;
+   background-color:blue;
+      width : 500px;
+      height  : 500px;
+
+ // width : auto ;
+// height  : auto ;
+
+
+}
+
+.toolButtonSelected{
+border-radius: 100%;
+}
+
+.toolButtnUnSel{
+border-radius: 0%;
+}
+
+
+button {
+ margin: 0px;
+ padding: 0px;
+ width : 50px;
+   height :50px;
+ background-color:
+ green;
+ font-weight: bold;
+ font-size: x-small;
+
+  }
+
+
+
+button#ToolDigBtn8 {}
+
+button#ToolDigBtn3 {}
+
+button#ToolDigBtn3 {}
+
+</style>
